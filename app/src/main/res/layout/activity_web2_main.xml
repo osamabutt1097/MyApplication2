@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Web2MainActivity">
+
+    <EditText
+        android:id="@+id/editline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="83dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <Button
+        android:id="@+id/clickbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="229dp"
+        android:text="Button"
+        android:onClick="fetch_web_result"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp" />
+</RelativeLayout>

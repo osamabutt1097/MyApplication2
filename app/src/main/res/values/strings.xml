@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="contact_array">
+        <item>type A</item>
+        <item>type B</item>
+        <item>type C</item>
+        <item>type D</item>
+    </string-array>
+
+    <string-array name="details_array">
+        <item>Details of contact uzair</item>
+        <item>Osama Butt</item>
+        <item>Umar sheikh cake</item>
+        <item>Guru the item</item>
+    </string-array>
+
+</resources>
